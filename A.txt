@@ -1,2 +1,14 @@
-Software engineering 
-fefeefrgf
+
+git config --global user.name "Subinoy001"
+ git config --global user.email "rudroc410@gmail.com"
+git config --global --list
+
+git init
+git remote add origin https://github.com/Subinoy001/git.git
+ git add .
+git branch -M main
+git commit -m "2 files added"
+git push -u origin main
+git add A.txt
+ git commit -m "1 file changed"
+git push
